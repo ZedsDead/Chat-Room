@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MBAutoGrowingTextView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Chat Room.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9348368E0AE14076087837D8C8256FB8</key>
+		<key>B96C31187706B091851763C493282671</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>939D09795BFC2ABF57FEBED4407F09DE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EC4D7CB88F97468F11E3F49CCF084803</key>
+		<key>D77AAF16B1DA84936B85ABE9C5C9E5DD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

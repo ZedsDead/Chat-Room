@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E74D8F27675129E127F59A94'
+               BlueprintIdentifier = 'D026D2856D1D0D2ACD906A43'
                BlueprintName = 'Pods-Chat Room'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_Chat_Room.framework'>
