@@ -1,1669 +1,606 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>00E486D47F79A10B8CF60FACB0816740</key>
-		<dict>
-			<key>fileRef</key>
-			<string>72A5AB41D01538D6D1F45F3C07220BB8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>02699E0D58464E5642EBA7151A5B3C49</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>00E486D47F79A10B8CF60FACB0816740</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>043D782257DB50BC7B57630A5BD577C6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketEventHandler.swift</string>
-			<key>path</key>
-			<string>Source/SocketEventHandler.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>05DD98DF656FDC7D8E64CD40CC3F4047</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Socket.IO-Client-Swift.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06FCB82AA93FF76BA547AB1D3AB0ADFF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9B59BDFD692606D25A027C43E6C89A5C</string>
-				<string>0F244CCBBA45069AA8A524715B8E5966</string>
-				<string>6D9571AF94B7FB655E7868AEF99404CB</string>
-				<string>2B1526DC8C1273F235789BF159D7714F</string>
-				<string>31F0F03BBE73D643AD0486ADFE0A8AC5</string>
-				<string>51D342D3CD8230E8928AFA54BF2F79D0</string>
-				<string>525F0BEBFC24363C1C12BFED1C52E09A</string>
-				<string>E330F9F321E4350813202BD51BC3F67A</string>
-				<string>1670BB5EB79304C745E1AE522C2461EE</string>
-				<string>5603ECF44D6231ED2C54E8BC2F385A37</string>
-				<string>043D782257DB50BC7B57630A5BD577C6</string>
-				<string>F83D48B450D21095FBEC2185F938BE67</string>
-				<string>38EAE89FD26A461FD18EFD671BC2A669</string>
-				<string>9693A3F4FEDC4DE12781103EE82CB97D</string>
-				<string>AC6DB44BEB912798F945A7288622BC11</string>
-				<string>320E64E91F0F5C8DABC045FC2BF66DF1</string>
-				<string>F306E01D91D86C36440F2FAD6F23C988</string>
-				<string>29A3BB339105AF5BC77EB85BD3CB18E6</string>
-				<string>117F685036DDF69767FA0894A36AFD79</string>
-				<string>6AE9ACCB4FBAE731DCA98FD8DB00CF2B</string>
-				<string>670BE73CF5968D8D6D6C8AAC526F90E2</string>
-				<string>FD80A7ADAB722173423A36E7463C4AFB</string>
-				<string>996BB3B147D524EF800F2194B91709F1</string>
-				<string>F36F6652863175FDE16D90EF0BEF19B7</string>
-				<string>C964BA47013163C7F484F1A789B76193</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Socket.IO-Client-Swift</string>
-			<key>path</key>
-			<string>Socket.IO-Client-Swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0869D746258A4D4BD4FA232B016BF7D2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F543C7B0565A0F0E961C839D6731498A</string>
-				<string>84272FBF159E53B7D0A3DF4651B1DDCB</string>
-				<string>94C92E2228BBBCF99ECDBAC10B14CE79</string>
-				<string>9B0346734A4072213586F7E7F531CDBE</string>
-				<string>22EAFA5102283C0B785F0B6E9A0E2481</string>
-				<string>B71EEEB50ABDAA6D12991CA764B18CF5</string>
-				<string>F6B15CC156F3EF24103C36460974ACDB</string>
-				<string>A6A667455FA53B212E79E783BF50FCD3</string>
-				<string>8B7179B6A5F7DA46A88EEE1C403FBC9E</string>
-				<string>A0FD2E35EFC374B4AAFA2DA64B5F91FD</string>
-				<string>7039FCB4896FA58BDAC268B44CC1CF86</string>
-				<string>60DB412BA282C1B46E145B558F36B5DD</string>
-				<string>73D6919E3EFE7B46A13C14412FF55DB7</string>
-				<string>B5DA228C713B4E0AB521BC194DCF652D</string>
-				<string>3D481D16A908243D7431508C979F814A</string>
-				<string>2DD9483836652C3A79761AB66E2FF64B</string>
-				<string>3C0273C6176B5EE2EF2910C59ABCEE86</string>
-				<string>6036DB001CF0E4C0E89EBBE285E98E31</string>
-				<string>1BA8E9F402B38A0B8F22BF318AC0557A</string>
-				<string>94ED43904373F3CA772F09CC7B8B221F</string>
-				<string>6D2B937062FC91E2F01E897C622677BC</string>
-				<string>4DAAAC0246566D7328F5B0680FDDC40F</string>
-				<string>40076C89A011157516B28D3AA58FE6BD</string>
-				<string>CA4BE201220E801549A3C1B9FF73583F</string>
-				<string>AFF95D25C511FA1E440ACC54A7987C3B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0F244CCBBA45069AA8A524715B8E5966</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketAckManager.swift</string>
-			<key>path</key>
-			<string>Source/SocketAckManager.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>117F685036DDF69767FA0894A36AFD79</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketPacket.swift</string>
-			<key>path</key>
-			<string>Source/SocketPacket.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14D6B31BC3C07713AE2188F03B33A742</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E0DDD16C2201A93E8CE053AD48CDDD8D</string>
-				<string>A222DE98B30BE14BE7B4DA768FA4DC7E</string>
-				<string>C132452A37E8766484EC962AC526996D</string>
-				<string>7DEFBD1362DE3F3E5AA24EDDF0EA7200</string>
-				<string>4A662F6FB442097B671D77EA0E99EF78</string>
-				<string>AA410454712B7BC0901CB0578001A39E</string>
-				<string>69DAD0E959C44779B85A2BB78A5AA776</string>
-				<string>72A5AB41D01538D6D1F45F3C07220BB8</string>
-				<string>2BDD58E34EE20FC0F3E2B10F49260268</string>
-				<string>A80BF99CD7EA707D179653DF9B415A1E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Chat Room</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Chat Room</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1670BB5EB79304C745E1AE522C2461EE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketEngineSpec.swift</string>
-			<key>path</key>
-			<string>Source/SocketEngineSpec.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>199B63C206689191E436805F41BE055D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B65CBD8C3AC9A060C563136522D30232</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1BA8E9F402B38A0B8F22BF318AC0557A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>29A3BB339105AF5BC77EB85BD3CB18E6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>22EAFA5102283C0B785F0B6E9A0E2481</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B1526DC8C1273F235789BF159D7714F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2919F051A982AF7871FD55E27D6654E4</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9F9012D1CF800972BED941165B70893F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Socket.IO-Client-Swift/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>SocketIO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>29A3BB339105AF5BC77EB85BD3CB18E6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketLogger.swift</string>
-			<key>path</key>
-			<string>Source/SocketLogger.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B1526DC8C1273F235789BF159D7714F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketClientManager.swift</string>
-			<key>path</key>
-			<string>Source/SocketClientManager.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2BDD58E34EE20FC0F3E2B10F49260268</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Chat Room.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A70CDAD61F90AC503C7D04CC22DA2923</string>
-				<string>FB45FFD90572718D82AB9092B750F0CA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2DD9483836652C3A79761AB66E2FF64B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AC6DB44BEB912798F945A7288622BC11</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2EFC36948E26A0F203BBBA2ED363D0DB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2919F051A982AF7871FD55E27D6654E4</string>
-				<string>65E3899FAA4695F9FF5FA07AB8A0A72F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2F73F60C1C04873030343963902F44BB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>14D6B31BC3C07713AE2188F03B33A742</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>31F0F03BBE73D643AD0486ADFE0A8AC5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketEngine.swift</string>
-			<key>path</key>
-			<string>Source/SocketEngine.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>320E64E91F0F5C8DABC045FC2BF66DF1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketIOClientSpec.swift</string>
-			<key>path</key>
-			<string>Source/SocketIOClientSpec.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38EAE89FD26A461FD18EFD671BC2A669</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketIOClient.swift</string>
-			<key>path</key>
-			<string>Source/SocketIOClient.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3C0273C6176B5EE2EF2910C59ABCEE86</key>
-		<dict>
-			<key>fileRef</key>
-			<string>320E64E91F0F5C8DABC045FC2BF66DF1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3D481D16A908243D7431508C979F814A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9693A3F4FEDC4DE12781103EE82CB97D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3E4E89230EF59BC255123B67864ACF77</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>3F57EC4469168DB9A573C09EAF2AEF49</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Socket.IO-Client-Swift-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3FD128FD839FBFD6C813E701EFEA127C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4A662F6FB442097B671D77EA0E99EF78</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>40076C89A011157516B28D3AA58FE6BD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD80A7ADAB722173423A36E7463C4AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>405F3434760925025566E77775EE5B9A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2BDD58E34EE20FC0F3E2B10F49260268</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Chat Room/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Chat Room/Pods-Chat Room.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Chat_Room</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>42278F2C1FC5D0FC88177C6F91A70B0A</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>B96C31187706B091851763C493282671</string>
-			<key>remoteInfo</key>
-			<string>Socket.IO-Client-Swift</string>
-		</dict>
-		<key>4A662F6FB442097B671D77EA0E99EF78</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Chat Room-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DAAAC0246566D7328F5B0680FDDC40F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>670BE73CF5968D8D6D6C8AAC526F90E2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E852147BB8CA11C60363B97C1193E41</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>51D342D3CD8230E8928AFA54BF2F79D0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketEngineClient.swift</string>
-			<key>path</key>
-			<string>Source/SocketEngineClient.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>525F0BEBFC24363C1C12BFED1C52E09A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketEnginePacketType.swift</string>
-			<key>path</key>
-			<string>Source/SocketEnginePacketType.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5603ECF44D6231ED2C54E8BC2F385A37</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketEngineWebsocket.swift</string>
-			<key>path</key>
-			<string>Source/SocketEngineWebsocket.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6036DB001CF0E4C0E89EBBE285E98E31</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F306E01D91D86C36440F2FAD6F23C988</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>60DB412BA282C1B46E145B558F36B5DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>043D782257DB50BC7B57630A5BD577C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>65E3899FAA4695F9FF5FA07AB8A0A72F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9F9012D1CF800972BED941165B70893F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Socket.IO-Client-Swift/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>SocketIO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>670BE73CF5968D8D6D6C8AAC526F90E2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketStringReader.swift</string>
-			<key>path</key>
-			<string>Source/SocketStringReader.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>69DAD0E959C44779B85A2BB78A5AA776</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Chat Room-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6AE9ACCB4FBAE731DCA98FD8DB00CF2B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketParsable.swift</string>
-			<key>path</key>
-			<string>Source/SocketParsable.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D2B937062FC91E2F01E897C622677BC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6AE9ACCB4FBAE731DCA98FD8DB00CF2B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6D9571AF94B7FB655E7868AEF99404CB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketAnyEvent.swift</string>
-			<key>path</key>
-			<string>Source/SocketAnyEvent.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7039FCB4896FA58BDAC268B44CC1CF86</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5603ECF44D6231ED2C54E8BC2F385A37</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>72A5AB41D01538D6D1F45F3C07220BB8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Chat Room-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73D6919E3EFE7B46A13C14412FF55DB7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F83D48B450D21095FBEC2185F938BE67</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>87AC66C613B2A233B3C94B7B15C485E3</string>
-				<string>F170A9B391BE711C9D305963E4A6AC5E</string>
-				<string>2F73F60C1C04873030343963902F44BB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DEFBD1362DE3F3E5AA24EDDF0EA7200</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Chat Room-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>811F1D22DD0293ED964E356F63ADB422</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Socket.IO-Client-Swift</string>
-			<key>target</key>
-			<string>B96C31187706B091851763C493282671</string>
-			<key>targetProxy</key>
-			<string>42278F2C1FC5D0FC88177C6F91A70B0A</string>
-		</dict>
-		<key>816978516671EB76A2BD3331AB2B60C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84272FBF159E53B7D0A3DF4651B1DDCB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9B59BDFD692606D25A027C43E6C89A5C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>87905EC17B5665096942646DB7542569</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Socket.IO-Client-Swift-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>87AC66C613B2A233B3C94B7B15C485E3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>06FCB82AA93FF76BA547AB1D3AB0ADFF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8B7179B6A5F7DA46A88EEE1C403FBC9E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E330F9F321E4350813202BD51BC3F67A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>93489500F868CF97AF8B7C4916603174</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>816978516671EB76A2BD3331AB2B60C9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>94C92E2228BBBCF99ECDBAC10B14CE79</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0F244CCBBA45069AA8A524715B8E5966</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>94ED43904373F3CA772F09CC7B8B221F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>117F685036DDF69767FA0894A36AFD79</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9693A3F4FEDC4DE12781103EE82CB97D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketIOClientConfiguration.swift</string>
-			<key>path</key>
-			<string>Source/SocketIOClientConfiguration.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>996BB3B147D524EF800F2194B91709F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SSLSecurity.swift</string>
-			<key>path</key>
-			<string>Source/SSLSecurity.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0346734A4072213586F7E7F531CDBE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6D9571AF94B7FB655E7868AEF99404CB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9B59BDFD692606D25A027C43E6C89A5C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketAckEmitter.swift</string>
-			<key>path</key>
-			<string>Source/SocketAckEmitter.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9F9012D1CF800972BED941165B70893F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Socket.IO-Client-Swift.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A0FD2E35EFC374B4AAFA2DA64B5F91FD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1670BB5EB79304C745E1AE522C2461EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A222DE98B30BE14BE7B4DA768FA4DC7E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-Chat Room.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A6A667455FA53B212E79E783BF50FCD3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>525F0BEBFC24363C1C12BFED1C52E09A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A70CDAD61F90AC503C7D04CC22DA2923</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A80BF99CD7EA707D179653DF9B415A1E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Chat Room.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A887227A50F5D8852BF975AE3D40484B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>SocketIO.framework</string>
-			<key>path</key>
-			<string>SocketIO.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AA410454712B7BC0901CB0578001A39E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Chat Room-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AC6DB44BEB912798F945A7288622BC11</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketIOClientOption.swift</string>
-			<key>path</key>
-			<string>Source/SocketIOClientOption.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFF95D25C511FA1E440ACC54A7987C3B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F36F6652863175FDE16D90EF0BEF19B7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B0B1DF8C59B1A1D13FFE49CCDB9F0FD6</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>405F3434760925025566E77775EE5B9A</string>
-				<string>E8E2CF56F4F8645CCC8211147B61CEF5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>B5DA228C713B4E0AB521BC194DCF652D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>38EAE89FD26A461FD18EFD671BC2A669</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B65CBD8C3AC9A060C563136522D30232</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3F57EC4469168DB9A573C09EAF2AEF49</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>B71EECDD066CBDCDADBCCE92433DFBC9</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Chat_Room.framework</string>
-			<key>path</key>
-			<string>Pods_Chat_Room.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B71EEEB50ABDAA6D12991CA764B18CF5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>31F0F03BBE73D643AD0486ADFE0A8AC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B82F9B202C062A7B1A9EDD69E3CCB3B4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B96C31187706B091851763C493282671</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>2EFC36948E26A0F203BBBA2ED363D0DB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0869D746258A4D4BD4FA232B016BF7D2</string>
-				<string>E8D758CD06E7DA7DD55B1B3D2866BA7E</string>
-				<string>199B63C206689191E436805F41BE055D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Socket.IO-Client-Swift</string>
-			<key>productName</key>
-			<string>Socket.IO-Client-Swift</string>
-			<key>productReference</key>
-			<string>A887227A50F5D8852BF975AE3D40484B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3E4E89230EF59BC255123B67864ACF77</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C132452A37E8766484EC962AC526996D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Chat Room-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C964BA47013163C7F484F1A789B76193</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E852147BB8CA11C60363B97C1193E41</string>
-				<string>05DD98DF656FDC7D8E64CD40CC3F4047</string>
-				<string>9F9012D1CF800972BED941165B70893F</string>
-				<string>87905EC17B5665096942646DB7542569</string>
-				<string>F57959BBDDA9210163F0CBFB7527AE25</string>
-				<string>3F57EC4469168DB9A573C09EAF2AEF49</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Socket.IO-Client-Swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CA4BE201220E801549A3C1B9FF73583F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>996BB3B147D524EF800F2194B91709F1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>F170A9B391BE711C9D305963E4A6AC5E</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>D77AAF16B1DA84936B85ABE9C5C9E5DD</string>
-				<string>B96C31187706B091851763C493282671</string>
-			</array>
-		</dict>
-		<key>D77AAF16B1DA84936B85ABE9C5C9E5DD</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>B0B1DF8C59B1A1D13FFE49CCDB9F0FD6</string>
-			<key>buildPhases</key>
-			<array>
-				<string>DECF6B6131BC0E554942FC41B05D9654</string>
-				<string>93489500F868CF97AF8B7C4916603174</string>
-				<string>02699E0D58464E5642EBA7151A5B3C49</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>811F1D22DD0293ED964E356F63ADB422</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Chat Room</string>
-			<key>productName</key>
-			<string>Pods-Chat Room</string>
-			<key>productReference</key>
-			<string>B71EECDD066CBDCDADBCCE92433DFBC9</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>DECF6B6131BC0E554942FC41B05D9654</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3FD128FD839FBFD6C813E701EFEA127C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E0DDD16C2201A93E8CE053AD48CDDD8D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E330F9F321E4350813202BD51BC3F67A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketEnginePollable.swift</string>
-			<key>path</key>
-			<string>Source/SocketEnginePollable.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E8D758CD06E7DA7DD55B1B3D2866BA7E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B82F9B202C062A7B1A9EDD69E3CCB3B4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E8E2CF56F4F8645CCC8211147B61CEF5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A80BF99CD7EA707D179653DF9B415A1E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Chat Room/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Chat Room/Pods-Chat Room.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Chat_Room</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>F170A9B391BE711C9D305963E4A6AC5E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B71EECDD066CBDCDADBCCE92433DFBC9</string>
-				<string>A887227A50F5D8852BF975AE3D40484B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F306E01D91D86C36440F2FAD6F23C988</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketIOClientStatus.swift</string>
-			<key>path</key>
-			<string>Source/SocketIOClientStatus.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F36F6652863175FDE16D90EF0BEF19B7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>WebSocket.swift</string>
-			<key>path</key>
-			<string>Source/WebSocket.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F543C7B0565A0F0E961C839D6731498A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>87905EC17B5665096942646DB7542569</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F57959BBDDA9210163F0CBFB7527AE25</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Socket.IO-Client-Swift-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F6B15CC156F3EF24103C36460974ACDB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>51D342D3CD8230E8928AFA54BF2F79D0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F83D48B450D21095FBEC2185F938BE67</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketExtensions.swift</string>
-			<key>path</key>
-			<string>Source/SocketExtensions.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FB45FFD90572718D82AB9092B750F0CA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FD80A7ADAB722173423A36E7463C4AFB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketTypes.swift</string>
-			<key>path</key>
-			<string>Source/SocketTypes.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E486D47F79A10B8CF60FACB0816740 /* Pods-Chat Room-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A5AB41D01538D6D1F45F3C07220BB8 /* Pods-Chat Room-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BA8E9F402B38A0B8F22BF318AC0557A /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A3BB339105AF5BC77EB85BD3CB18E6 /* SocketLogger.swift */; };
+		22EAFA5102283C0B785F0B6E9A0E2481 /* SocketClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1526DC8C1273F235789BF159D7714F /* SocketClientManager.swift */; };
+		2DD9483836652C3A79761AB66E2FF64B /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6DB44BEB912798F945A7288622BC11 /* SocketIOClientOption.swift */; };
+		3C0273C6176B5EE2EF2910C59ABCEE86 /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320E64E91F0F5C8DABC045FC2BF66DF1 /* SocketIOClientSpec.swift */; };
+		3D481D16A908243D7431508C979F814A /* SocketIOClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9693A3F4FEDC4DE12781103EE82CB97D /* SocketIOClientConfiguration.swift */; };
+		3FD128FD839FBFD6C813E701EFEA127C /* Pods-Chat Room-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A662F6FB442097B671D77EA0E99EF78 /* Pods-Chat Room-dummy.m */; };
+		40076C89A011157516B28D3AA58FE6BD /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD80A7ADAB722173423A36E7463C4AFB /* SocketTypes.swift */; };
+		4DAAAC0246566D7328F5B0680FDDC40F /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670BE73CF5968D8D6D6C8AAC526F90E2 /* SocketStringReader.swift */; };
+		6036DB001CF0E4C0E89EBBE285E98E31 /* SocketIOClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F306E01D91D86C36440F2FAD6F23C988 /* SocketIOClientStatus.swift */; };
+		60DB412BA282C1B46E145B558F36B5DD /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D782257DB50BC7B57630A5BD577C6 /* SocketEventHandler.swift */; };
+		6D2B937062FC91E2F01E897C622677BC /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE9ACCB4FBAE731DCA98FD8DB00CF2B /* SocketParsable.swift */; };
+		7039FCB4896FA58BDAC268B44CC1CF86 /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5603ECF44D6231ED2C54E8BC2F385A37 /* SocketEngineWebsocket.swift */; };
+		73D6919E3EFE7B46A13C14412FF55DB7 /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83D48B450D21095FBEC2185F938BE67 /* SocketExtensions.swift */; };
+		816978516671EB76A2BD3331AB2B60C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		84272FBF159E53B7D0A3DF4651B1DDCB /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59BDFD692606D25A027C43E6C89A5C /* SocketAckEmitter.swift */; };
+		8B7179B6A5F7DA46A88EEE1C403FBC9E /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E330F9F321E4350813202BD51BC3F67A /* SocketEnginePollable.swift */; };
+		94C92E2228BBBCF99ECDBAC10B14CE79 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F244CCBBA45069AA8A524715B8E5966 /* SocketAckManager.swift */; };
+		94ED43904373F3CA772F09CC7B8B221F /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117F685036DDF69767FA0894A36AFD79 /* SocketPacket.swift */; };
+		9B0346734A4072213586F7E7F531CDBE /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9571AF94B7FB655E7868AEF99404CB /* SocketAnyEvent.swift */; };
+		A0FD2E35EFC374B4AAFA2DA64B5F91FD /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1670BB5EB79304C745E1AE522C2461EE /* SocketEngineSpec.swift */; };
+		A6A667455FA53B212E79E783BF50FCD3 /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F0BEBFC24363C1C12BFED1C52E09A /* SocketEnginePacketType.swift */; };
+		AFF95D25C511FA1E440ACC54A7987C3B /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36F6652863175FDE16D90EF0BEF19B7 /* WebSocket.swift */; };
+		B5DA228C713B4E0AB521BC194DCF652D /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EAE89FD26A461FD18EFD671BC2A669 /* SocketIOClient.swift */; };
+		B65CBD8C3AC9A060C563136522D30232 /* Socket.IO-Client-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F57EC4469168DB9A573C09EAF2AEF49 /* Socket.IO-Client-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B71EEEB50ABDAA6D12991CA764B18CF5 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F0F03BBE73D643AD0486ADFE0A8AC5 /* SocketEngine.swift */; };
+		B82F9B202C062A7B1A9EDD69E3CCB3B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		CA4BE201220E801549A3C1B9FF73583F /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BB3B147D524EF800F2194B91709F1 /* SSLSecurity.swift */; };
+		F543C7B0565A0F0E961C839D6731498A /* Socket.IO-Client-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87905EC17B5665096942646DB7542569 /* Socket.IO-Client-Swift-dummy.m */; };
+		F6B15CC156F3EF24103C36460974ACDB /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D342D3CD8230E8928AFA54BF2F79D0 /* SocketEngineClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42278F2C1FC5D0FC88177C6F91A70B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96C31187706B091851763C493282671;
+			remoteInfo = "Socket.IO-Client-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043D782257DB50BC7B57630A5BD577C6 /* SocketEventHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = Source/SocketEventHandler.swift; sourceTree = "<group>"; };
+		05DD98DF656FDC7D8E64CD40CC3F4047 /* Socket.IO-Client-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Socket.IO-Client-Swift.modulemap"; sourceTree = "<group>"; };
+		0F244CCBBA45069AA8A524715B8E5966 /* SocketAckManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = Source/SocketAckManager.swift; sourceTree = "<group>"; };
+		117F685036DDF69767FA0894A36AFD79 /* SocketPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = Source/SocketPacket.swift; sourceTree = "<group>"; };
+		1670BB5EB79304C745E1AE522C2461EE /* SocketEngineSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineSpec.swift; path = Source/SocketEngineSpec.swift; sourceTree = "<group>"; };
+		29A3BB339105AF5BC77EB85BD3CB18E6 /* SocketLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = Source/SocketLogger.swift; sourceTree = "<group>"; };
+		2B1526DC8C1273F235789BF159D7714F /* SocketClientManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketClientManager.swift; path = Source/SocketClientManager.swift; sourceTree = "<group>"; };
+		2BDD58E34EE20FC0F3E2B10F49260268 /* Pods-Chat Room.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Chat Room.debug.xcconfig"; sourceTree = "<group>"; };
+		31F0F03BBE73D643AD0486ADFE0A8AC5 /* SocketEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = Source/SocketEngine.swift; sourceTree = "<group>"; };
+		320E64E91F0F5C8DABC045FC2BF66DF1 /* SocketIOClientSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientSpec.swift; path = Source/SocketIOClientSpec.swift; sourceTree = "<group>"; };
+		38EAE89FD26A461FD18EFD671BC2A669 /* SocketIOClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = Source/SocketIOClient.swift; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F57EC4469168DB9A573C09EAF2AEF49 /* Socket.IO-Client-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-umbrella.h"; sourceTree = "<group>"; };
+		4A662F6FB442097B671D77EA0E99EF78 /* Pods-Chat Room-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Chat Room-dummy.m"; sourceTree = "<group>"; };
+		4E852147BB8CA11C60363B97C1193E41 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51D342D3CD8230E8928AFA54BF2F79D0 /* SocketEngineClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = Source/SocketEngineClient.swift; sourceTree = "<group>"; };
+		525F0BEBFC24363C1C12BFED1C52E09A /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePacketType.swift; path = Source/SocketEnginePacketType.swift; sourceTree = "<group>"; };
+		5603ECF44D6231ED2C54E8BC2F385A37 /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineWebsocket.swift; path = Source/SocketEngineWebsocket.swift; sourceTree = "<group>"; };
+		670BE73CF5968D8D6D6C8AAC526F90E2 /* SocketStringReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketStringReader.swift; path = Source/SocketStringReader.swift; sourceTree = "<group>"; };
+		69DAD0E959C44779B85A2BB78A5AA776 /* Pods-Chat Room-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Chat Room-resources.sh"; sourceTree = "<group>"; };
+		6AE9ACCB4FBAE731DCA98FD8DB00CF2B /* SocketParsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketParsable.swift; path = Source/SocketParsable.swift; sourceTree = "<group>"; };
+		6D9571AF94B7FB655E7868AEF99404CB /* SocketAnyEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = Source/SocketAnyEvent.swift; sourceTree = "<group>"; };
+		72A5AB41D01538D6D1F45F3C07220BB8 /* Pods-Chat Room-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Chat Room-umbrella.h"; sourceTree = "<group>"; };
+		7DEFBD1362DE3F3E5AA24EDDF0EA7200 /* Pods-Chat Room-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Chat Room-acknowledgements.plist"; sourceTree = "<group>"; };
+		87905EC17B5665096942646DB7542569 /* Socket.IO-Client-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Socket.IO-Client-Swift-dummy.m"; sourceTree = "<group>"; };
+		9693A3F4FEDC4DE12781103EE82CB97D /* SocketIOClientConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientConfiguration.swift; path = Source/SocketIOClientConfiguration.swift; sourceTree = "<group>"; };
+		996BB3B147D524EF800F2194B91709F1 /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Source/SSLSecurity.swift; sourceTree = "<group>"; };
+		9B59BDFD692606D25A027C43E6C89A5C /* SocketAckEmitter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckEmitter.swift; path = Source/SocketAckEmitter.swift; sourceTree = "<group>"; };
+		9F9012D1CF800972BED941165B70893F /* Socket.IO-Client-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Socket.IO-Client-Swift.xcconfig"; sourceTree = "<group>"; };
+		A222DE98B30BE14BE7B4DA768FA4DC7E /* Pods-Chat Room.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Chat Room.modulemap"; sourceTree = "<group>"; };
+		A80BF99CD7EA707D179653DF9B415A1E /* Pods-Chat Room.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Chat Room.release.xcconfig"; sourceTree = "<group>"; };
+		A887227A50F5D8852BF975AE3D40484B /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA410454712B7BC0901CB0578001A39E /* Pods-Chat Room-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Chat Room-frameworks.sh"; sourceTree = "<group>"; };
+		AC6DB44BEB912798F945A7288622BC11 /* SocketIOClientOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientOption.swift; path = Source/SocketIOClientOption.swift; sourceTree = "<group>"; };
+		B71EECDD066CBDCDADBCCE92433DFBC9 /* Pods_Chat_Room.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_Room.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C132452A37E8766484EC962AC526996D /* Pods-Chat Room-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Chat Room-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E0DDD16C2201A93E8CE053AD48CDDD8D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E330F9F321E4350813202BD51BC3F67A /* SocketEnginePollable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePollable.swift; path = Source/SocketEnginePollable.swift; sourceTree = "<group>"; };
+		F306E01D91D86C36440F2FAD6F23C988 /* SocketIOClientStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientStatus.swift; path = Source/SocketIOClientStatus.swift; sourceTree = "<group>"; };
+		F36F6652863175FDE16D90EF0BEF19B7 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/WebSocket.swift; sourceTree = "<group>"; };
+		F57959BBDDA9210163F0CBFB7527AE25 /* Socket.IO-Client-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-prefix.pch"; sourceTree = "<group>"; };
+		F83D48B450D21095FBEC2185F938BE67 /* SocketExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketExtensions.swift; path = Source/SocketExtensions.swift; sourceTree = "<group>"; };
+		FD80A7ADAB722173423A36E7463C4AFB /* SocketTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = Source/SocketTypes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93489500F868CF97AF8B7C4916603174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816978516671EB76A2BD3331AB2B60C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D758CD06E7DA7DD55B1B3D2866BA7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82F9B202C062A7B1A9EDD69E3CCB3B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06FCB82AA93FF76BA547AB1D3AB0ADFF /* Socket.IO-Client-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				9B59BDFD692606D25A027C43E6C89A5C /* SocketAckEmitter.swift */,
+				0F244CCBBA45069AA8A524715B8E5966 /* SocketAckManager.swift */,
+				6D9571AF94B7FB655E7868AEF99404CB /* SocketAnyEvent.swift */,
+				2B1526DC8C1273F235789BF159D7714F /* SocketClientManager.swift */,
+				31F0F03BBE73D643AD0486ADFE0A8AC5 /* SocketEngine.swift */,
+				51D342D3CD8230E8928AFA54BF2F79D0 /* SocketEngineClient.swift */,
+				525F0BEBFC24363C1C12BFED1C52E09A /* SocketEnginePacketType.swift */,
+				E330F9F321E4350813202BD51BC3F67A /* SocketEnginePollable.swift */,
+				1670BB5EB79304C745E1AE522C2461EE /* SocketEngineSpec.swift */,
+				5603ECF44D6231ED2C54E8BC2F385A37 /* SocketEngineWebsocket.swift */,
+				043D782257DB50BC7B57630A5BD577C6 /* SocketEventHandler.swift */,
+				F83D48B450D21095FBEC2185F938BE67 /* SocketExtensions.swift */,
+				38EAE89FD26A461FD18EFD671BC2A669 /* SocketIOClient.swift */,
+				9693A3F4FEDC4DE12781103EE82CB97D /* SocketIOClientConfiguration.swift */,
+				AC6DB44BEB912798F945A7288622BC11 /* SocketIOClientOption.swift */,
+				320E64E91F0F5C8DABC045FC2BF66DF1 /* SocketIOClientSpec.swift */,
+				F306E01D91D86C36440F2FAD6F23C988 /* SocketIOClientStatus.swift */,
+				29A3BB339105AF5BC77EB85BD3CB18E6 /* SocketLogger.swift */,
+				117F685036DDF69767FA0894A36AFD79 /* SocketPacket.swift */,
+				6AE9ACCB4FBAE731DCA98FD8DB00CF2B /* SocketParsable.swift */,
+				670BE73CF5968D8D6D6C8AAC526F90E2 /* SocketStringReader.swift */,
+				FD80A7ADAB722173423A36E7463C4AFB /* SocketTypes.swift */,
+				996BB3B147D524EF800F2194B91709F1 /* SSLSecurity.swift */,
+				F36F6652863175FDE16D90EF0BEF19B7 /* WebSocket.swift */,
+				C964BA47013163C7F484F1A789B76193 /* Support Files */,
+			);
+			path = "Socket.IO-Client-Swift";
+			sourceTree = "<group>";
+		};
+		14D6B31BC3C07713AE2188F03B33A742 /* Pods-Chat Room */ = {
+			isa = PBXGroup;
+			children = (
+				E0DDD16C2201A93E8CE053AD48CDDD8D /* Info.plist */,
+				A222DE98B30BE14BE7B4DA768FA4DC7E /* Pods-Chat Room.modulemap */,
+				C132452A37E8766484EC962AC526996D /* Pods-Chat Room-acknowledgements.markdown */,
+				7DEFBD1362DE3F3E5AA24EDDF0EA7200 /* Pods-Chat Room-acknowledgements.plist */,
+				4A662F6FB442097B671D77EA0E99EF78 /* Pods-Chat Room-dummy.m */,
+				AA410454712B7BC0901CB0578001A39E /* Pods-Chat Room-frameworks.sh */,
+				69DAD0E959C44779B85A2BB78A5AA776 /* Pods-Chat Room-resources.sh */,
+				72A5AB41D01538D6D1F45F3C07220BB8 /* Pods-Chat Room-umbrella.h */,
+				2BDD58E34EE20FC0F3E2B10F49260268 /* Pods-Chat Room.debug.xcconfig */,
+				A80BF99CD7EA707D179653DF9B415A1E /* Pods-Chat Room.release.xcconfig */,
+			);
+			name = "Pods-Chat Room";
+			path = "Target Support Files/Pods-Chat Room";
+			sourceTree = "<group>";
+		};
+		2F73F60C1C04873030343963902F44BB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14D6B31BC3C07713AE2188F03B33A742 /* Pods-Chat Room */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				87AC66C613B2A233B3C94B7B15C485E3 /* Pods */,
+				F170A9B391BE711C9D305963E4A6AC5E /* Products */,
+				2F73F60C1C04873030343963902F44BB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87AC66C613B2A233B3C94B7B15C485E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06FCB82AA93FF76BA547AB1D3AB0ADFF /* Socket.IO-Client-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C964BA47013163C7F484F1A789B76193 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E852147BB8CA11C60363B97C1193E41 /* Info.plist */,
+				05DD98DF656FDC7D8E64CD40CC3F4047 /* Socket.IO-Client-Swift.modulemap */,
+				9F9012D1CF800972BED941165B70893F /* Socket.IO-Client-Swift.xcconfig */,
+				87905EC17B5665096942646DB7542569 /* Socket.IO-Client-Swift-dummy.m */,
+				F57959BBDDA9210163F0CBFB7527AE25 /* Socket.IO-Client-Swift-prefix.pch */,
+				3F57EC4469168DB9A573C09EAF2AEF49 /* Socket.IO-Client-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Socket.IO-Client-Swift";
+			sourceTree = "<group>";
+		};
+		F170A9B391BE711C9D305963E4A6AC5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B71EECDD066CBDCDADBCCE92433DFBC9 /* Pods_Chat_Room.framework */,
+				A887227A50F5D8852BF975AE3D40484B /* SocketIO.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02699E0D58464E5642EBA7151A5B3C49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E486D47F79A10B8CF60FACB0816740 /* Pods-Chat Room-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199B63C206689191E436805F41BE055D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65CBD8C3AC9A060C563136522D30232 /* Socket.IO-Client-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B96C31187706B091851763C493282671 /* Socket.IO-Client-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EFC36948E26A0F203BBBA2ED363D0DB /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */;
+			buildPhases = (
+				0869D746258A4D4BD4FA232B016BF7D2 /* Sources */,
+				E8D758CD06E7DA7DD55B1B3D2866BA7E /* Frameworks */,
+				199B63C206689191E436805F41BE055D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Socket.IO-Client-Swift";
+			productName = "Socket.IO-Client-Swift";
+			productReference = A887227A50F5D8852BF975AE3D40484B /* SocketIO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D77AAF16B1DA84936B85ABE9C5C9E5DD /* Pods-Chat Room */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0B1DF8C59B1A1D13FFE49CCDB9F0FD6 /* Build configuration list for PBXNativeTarget "Pods-Chat Room" */;
+			buildPhases = (
+				DECF6B6131BC0E554942FC41B05D9654 /* Sources */,
+				93489500F868CF97AF8B7C4916603174 /* Frameworks */,
+				02699E0D58464E5642EBA7151A5B3C49 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				811F1D22DD0293ED964E356F63ADB422 /* PBXTargetDependency */,
+			);
+			name = "Pods-Chat Room";
+			productName = "Pods-Chat Room";
+			productReference = B71EECDD066CBDCDADBCCE92433DFBC9 /* Pods_Chat_Room.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					B96C31187706B091851763C493282671 = {
+						LastSwiftMigration = 0800;
+					};
+					D77AAF16B1DA84936B85ABE9C5C9E5DD = {
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F170A9B391BE711C9D305963E4A6AC5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D77AAF16B1DA84936B85ABE9C5C9E5DD /* Pods-Chat Room */,
+				B96C31187706B091851763C493282671 /* Socket.IO-Client-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0869D746258A4D4BD4FA232B016BF7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F543C7B0565A0F0E961C839D6731498A /* Socket.IO-Client-Swift-dummy.m in Sources */,
+				84272FBF159E53B7D0A3DF4651B1DDCB /* SocketAckEmitter.swift in Sources */,
+				94C92E2228BBBCF99ECDBAC10B14CE79 /* SocketAckManager.swift in Sources */,
+				9B0346734A4072213586F7E7F531CDBE /* SocketAnyEvent.swift in Sources */,
+				22EAFA5102283C0B785F0B6E9A0E2481 /* SocketClientManager.swift in Sources */,
+				B71EEEB50ABDAA6D12991CA764B18CF5 /* SocketEngine.swift in Sources */,
+				F6B15CC156F3EF24103C36460974ACDB /* SocketEngineClient.swift in Sources */,
+				A6A667455FA53B212E79E783BF50FCD3 /* SocketEnginePacketType.swift in Sources */,
+				8B7179B6A5F7DA46A88EEE1C403FBC9E /* SocketEnginePollable.swift in Sources */,
+				A0FD2E35EFC374B4AAFA2DA64B5F91FD /* SocketEngineSpec.swift in Sources */,
+				7039FCB4896FA58BDAC268B44CC1CF86 /* SocketEngineWebsocket.swift in Sources */,
+				60DB412BA282C1B46E145B558F36B5DD /* SocketEventHandler.swift in Sources */,
+				73D6919E3EFE7B46A13C14412FF55DB7 /* SocketExtensions.swift in Sources */,
+				B5DA228C713B4E0AB521BC194DCF652D /* SocketIOClient.swift in Sources */,
+				3D481D16A908243D7431508C979F814A /* SocketIOClientConfiguration.swift in Sources */,
+				2DD9483836652C3A79761AB66E2FF64B /* SocketIOClientOption.swift in Sources */,
+				3C0273C6176B5EE2EF2910C59ABCEE86 /* SocketIOClientSpec.swift in Sources */,
+				6036DB001CF0E4C0E89EBBE285E98E31 /* SocketIOClientStatus.swift in Sources */,
+				1BA8E9F402B38A0B8F22BF318AC0557A /* SocketLogger.swift in Sources */,
+				94ED43904373F3CA772F09CC7B8B221F /* SocketPacket.swift in Sources */,
+				6D2B937062FC91E2F01E897C622677BC /* SocketParsable.swift in Sources */,
+				4DAAAC0246566D7328F5B0680FDDC40F /* SocketStringReader.swift in Sources */,
+				40076C89A011157516B28D3AA58FE6BD /* SocketTypes.swift in Sources */,
+				CA4BE201220E801549A3C1B9FF73583F /* SSLSecurity.swift in Sources */,
+				AFF95D25C511FA1E440ACC54A7987C3B /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECF6B6131BC0E554942FC41B05D9654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD128FD839FBFD6C813E701EFEA127C /* Pods-Chat Room-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		811F1D22DD0293ED964E356F63ADB422 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Socket.IO-Client-Swift";
+			target = B96C31187706B091851763C493282671 /* Socket.IO-Client-Swift */;
+			targetProxy = 42278F2C1FC5D0FC88177C6F91A70B0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2919F051A982AF7871FD55E27D6654E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9012D1CF800972BED941165B70893F /* Socket.IO-Client-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SocketIO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		405F3434760925025566E77775EE5B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BDD58E34EE20FC0F3E2B10F49260268 /* Pods-Chat Room.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Chat Room/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Chat Room/Pods-Chat Room.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Chat_Room;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65E3899FAA4695F9FF5FA07AB8A0A72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9012D1CF800972BED941165B70893F /* Socket.IO-Client-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SocketIO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E8E2CF56F4F8645CCC8211147B61CEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80BF99CD7EA707D179653DF9B415A1E /* Pods-Chat Room.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Chat Room/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Chat Room/Pods-Chat Room.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Chat_Room;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EFC36948E26A0F203BBBA2ED363D0DB /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2919F051A982AF7871FD55E27D6654E4 /* Debug */,
+				65E3899FAA4695F9FF5FA07AB8A0A72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0B1DF8C59B1A1D13FFE49CCDB9F0FD6 /* Build configuration list for PBXNativeTarget "Pods-Chat Room" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405F3434760925025566E77775EE5B9A /* Debug */,
+				E8E2CF56F4F8645CCC8211147B61CEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

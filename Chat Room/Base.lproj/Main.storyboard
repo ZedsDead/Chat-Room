@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Login View Controller-->
+        <!--Welcome to Chat-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="CRLoginViewController" sceneMemberID="viewController">
@@ -16,7 +16,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Imk-YS-1NA">
@@ -49,7 +49,7 @@
                             <constraint firstAttribute="trailing" secondItem="dOo-1S-XLy" secondAttribute="trailing" constant="20" id="tag-Jq-Vmz"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="C4p-PD-RbA"/>
+                    <navigationItem key="navigationItem" title="Welcome to Chat" id="C4p-PD-RbA"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="nicknameTextField" destination="dOo-1S-XLy" id="dT5-wT-iYN"/>
@@ -60,16 +60,16 @@
             </objects>
             <point key="canvasLocation" x="1099" y="-340"/>
         </scene>
-        <!--Chat View Controller-->
+        <!--Chat Room-->
         <scene sceneID="wl7-ON-D2E">
             <objects>
-                <viewController id="6ag-PD-8MS" customClass="CRChatViewController" sceneMemberID="viewController">
+                <viewController title="Chat Room" id="6ag-PD-8MS" customClass="CRChatViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AKk-FZ-oVc"/>
                         <viewControllerLayoutGuide type="bottom" id="ov7-aZ-zFD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="MAH-RP-LNM">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uc0-Hg-zNJ" userLabel="Reachability">
@@ -146,10 +146,10 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CRInputMessageCellIdentifier" rowHeight="62" id="rlK-XQ-FKb" userLabel="Input Message Cell" customClass="CRMessageCell">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="62"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="62"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rlK-XQ-FKb" id="ZnC-He-JiZ">
-                                            <frame key="frameInset" width="320" height="62"/>
+                                            <frame key="frameInset" width="375" height="62"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dUz-jF-YIL" userLabel="Separator">
@@ -218,10 +218,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CROutputMessageCellIdentifier" rowHeight="62" id="j9Q-q2-rtA" userLabel="Output Message Cell" customClass="CRMessageCell">
-                                        <rect key="frame" x="0.0" y="90" width="320" height="62"/>
+                                        <rect key="frame" x="0.0" y="90" width="375" height="62"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="j9Q-q2-rtA" id="pKk-sB-64A">
-                                            <frame key="frameInset" width="320" height="62"/>
+                                            <frame key="frameInset" width="375" height="62"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hdx-6u-HaJ" userLabel="Placeholder">
@@ -280,10 +280,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CRReplyRateWidgetCellIdentifier" rowHeight="62" id="kGn-KU-Ja5" customClass="CRReplyRateWidgetCell">
-                                        <rect key="frame" x="0.0" y="152" width="320" height="62"/>
+                                        <rect key="frame" x="0.0" y="152" width="375" height="62"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kGn-KU-Ja5" id="SLA-5M-Ks1">
-                                            <frame key="frameInset" width="320" height="62"/>
+                                            <frame key="frameInset" width="375" height="62"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVT-ik-lB9">
@@ -339,10 +339,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CRReplyMapWidgetCellIdentifier" rowHeight="150" id="R6Y-bV-2DI" customClass="CRWidgetMapCell">
-                                        <rect key="frame" x="0.0" y="214" width="320" height="150"/>
+                                        <rect key="frame" x="0.0" y="214" width="375" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="R6Y-bV-2DI" id="X6S-HC-Bp0">
-                                            <frame key="frameInset" width="320" height="150"/>
+                                            <frame key="frameInset" width="375" height="150"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14q-Ng-mJ0">
@@ -394,10 +394,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CRWidgetMapCellIdentifier" rowHeight="150" id="a3k-kn-cRZ" customClass="CRWidgetMapCell">
-                                        <rect key="frame" x="0.0" y="364" width="320" height="150"/>
+                                        <rect key="frame" x="0.0" y="364" width="375" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="a3k-kn-cRZ" id="APu-Wb-ldh">
-                                            <frame key="frameInset" width="320" height="150"/>
+                                            <frame key="frameInset" width="375" height="150"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Mj-YL-qf3" userLabel="Separator">
@@ -453,10 +453,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CRWidgetDateCellIdentifier" rowHeight="62" id="Pmx-v9-03i" customClass="CRWidgetDateCell">
-                                        <rect key="frame" x="0.0" y="514" width="320" height="62"/>
+                                        <rect key="frame" x="0.0" y="514" width="375" height="62"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Pmx-v9-03i" id="c2d-eP-gv8">
-                                            <frame key="frameInset" width="320" height="62"/>
+                                            <frame key="frameInset" width="375" height="62"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tzf-xn-Hxz" userLabel="Separator">
@@ -555,10 +555,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CRWidgetRateCellIdentifier" rowHeight="62" id="6rz-nH-mfb" customClass="CRWidgetRateCell">
-                                        <rect key="frame" x="0.0" y="576" width="320" height="62"/>
+                                        <rect key="frame" x="0.0" y="576" width="375" height="62"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6rz-nH-mfb" id="Uc7-1t-e4u">
-                                            <frame key="frameInset" width="320" height="62"/>
+                                            <frame key="frameInset" width="375" height="62"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Clm-dG-ycr" userLabel="Separator">
@@ -662,10 +662,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CRWidgetCompleteCellIdentifier" rowHeight="62" id="csr-40-Jtu" customClass="CRWidgetCompleteCell">
-                                        <rect key="frame" x="0.0" y="638" width="320" height="62"/>
+                                        <rect key="frame" x="0.0" y="638" width="375" height="62"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="csr-40-Jtu" id="3KH-bv-uX2">
-                                            <frame key="frameInset" width="320" height="62"/>
+                                            <frame key="frameInset" width="375" height="62"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sZW-I6-gqs" userLabel="Separator">
@@ -680,9 +680,7 @@
                                                         <constraint firstAttribute="height" constant="1" id="UDf-2F-P3O"/>
                                                     </constraints>
                                                 </view>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xhd-sY-VfV">
-                                                    <frame key="frameInset" minX="8" width="150" height="62"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xhd-sY-VfV">
                                                     <state key="normal" title="Yes">
                                                         <color key="titleColor" red="0.14901960784313725" green="0.66274509803921566" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
@@ -690,9 +688,7 @@
                                                         <action selector="completeButtonToucehd:" destination="csr-40-Jtu" eventType="touchUpInside" id="cpZ-7G-ONi"/>
                                                     </connections>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GDd-Np-tJh">
-                                                    <frame key="frameInset" minX="162" width="150" height="62"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GDd-Np-tJh">
                                                     <state key="normal" title="No">
                                                         <color key="titleColor" red="0.14901960784313725" green="0.66274509803921566" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
@@ -702,12 +698,20 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="GDd-Np-tJh" firstAttribute="top" secondItem="3KH-bv-uX2" secondAttribute="top" id="11W-S3-EIt"/>
+                                                <constraint firstItem="xhd-sY-VfV" firstAttribute="top" secondItem="3KH-bv-uX2" secondAttribute="top" id="40G-nJ-gUd"/>
+                                                <constraint firstAttribute="bottom" secondItem="GDd-Np-tJh" secondAttribute="bottom" id="6vX-aw-TuO"/>
                                                 <constraint firstAttribute="trailing" secondItem="sZW-I6-gqs" secondAttribute="trailing" id="9H1-a0-4Dr"/>
                                                 <constraint firstAttribute="trailing" secondItem="LFw-aA-0sI" secondAttribute="trailing" id="F4y-jt-etP"/>
                                                 <constraint firstItem="LFw-aA-0sI" firstAttribute="leading" secondItem="3KH-bv-uX2" secondAttribute="leading" id="HBu-Fx-9ov"/>
+                                                <constraint firstAttribute="trailing" secondItem="GDd-Np-tJh" secondAttribute="trailing" constant="8" id="T9F-Qn-CdH"/>
+                                                <constraint firstItem="xhd-sY-VfV" firstAttribute="leading" secondItem="3KH-bv-uX2" secondAttribute="leading" constant="8" id="XyO-gQ-eLT"/>
+                                                <constraint firstItem="GDd-Np-tJh" firstAttribute="width" secondItem="xhd-sY-VfV" secondAttribute="width" id="Y0b-Xs-wdC"/>
                                                 <constraint firstItem="sZW-I6-gqs" firstAttribute="top" secondItem="3KH-bv-uX2" secondAttribute="top" id="hge-k3-i2A"/>
                                                 <constraint firstItem="sZW-I6-gqs" firstAttribute="leading" secondItem="3KH-bv-uX2" secondAttribute="leading" id="hoK-7d-IeU"/>
+                                                <constraint firstAttribute="bottom" secondItem="xhd-sY-VfV" secondAttribute="bottom" id="n45-WL-RDS"/>
                                                 <constraint firstAttribute="bottom" secondItem="LFw-aA-0sI" secondAttribute="bottom" id="oFo-wc-pHj"/>
+                                                <constraint firstItem="GDd-Np-tJh" firstAttribute="leading" secondItem="xhd-sY-VfV" secondAttribute="trailing" constant="19" id="zF6-ah-vlB"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -750,18 +754,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rc9-N8-IlC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1901.25" y="-340.14084507042253"/>
+            <point key="canvasLocation" x="1900" y="-340.47976011994007"/>
         </scene>
-        <!--Map View Controller-->
+        <!--Map-->
         <scene sceneID="zUI-06-wEw">
             <objects>
-                <viewController id="iFh-Ln-pVc" customClass="CRMapViewController" sceneMemberID="viewController">
+                <viewController title="Map" id="iFh-Ln-pVc" customClass="CRMapViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2d2-Nd-Uif"/>
                         <viewControllerLayoutGuide type="bottom" id="oou-zj-DhS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="KOQ-Ms-mgh">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sf9-Vq-f6a">
@@ -814,7 +818,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vrn-aY-NNC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2825.625" y="-340.14084507042253"/>
+            <point key="canvasLocation" x="2824.8000000000002" y="-340.47976011994007"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="d7l-uV-qb1">
