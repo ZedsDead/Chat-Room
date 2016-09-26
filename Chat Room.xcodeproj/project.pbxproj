@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04027B2E1D9540F000DD34BB /* CRDialogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04027B2D1D9540F000DD34BB /* CRDialogCell.m */; };
+		04027B311D95415600DD34BB /* CRDialogObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 04027B301D95415600DD34BB /* CRDialogObject.m */; };
+		042D01441D96998500D896F9 /* CRWidgetDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D01431D96998500D896F9 /* CRWidgetDateCell.m */; };
+		042D01471D9699CB00D896F9 /* CRWidgetMapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D01461D9699CB00D896F9 /* CRWidgetMapCell.m */; };
+		042D014A1D9699DD00D896F9 /* CRWidgetRateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D01491D9699DD00D896F9 /* CRWidgetRateCell.m */; };
+		042D014D1D9699EC00D896F9 /* CRWidgetCompleteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D014C1D9699EC00D896F9 /* CRWidgetCompleteCell.m */; };
+		042D01501D96A8DB00D896F9 /* CRWidgetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D014F1D96A8DB00D896F9 /* CRWidgetCell.m */; };
+		042D01531D96D3F000D896F9 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D01521D96D3F000D896F9 /* NSDate+Utils.m */; };
+		042D01551D96DE2C00D896F9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042D01541D96DE2C00D896F9 /* MapKit.framework */; };
+		042D01581D97307600D896F9 /* CRReplyRateWidgetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D01571D97307600D896F9 /* CRReplyRateWidgetCell.m */; };
+		042D01601D97539C00D896F9 /* CRMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D015F1D97539C00D896F9 /* CRMapViewController.m */; };
+		042D01631D9753BA00D896F9 /* CRAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D01621D9753BA00D896F9 /* CRAnnotation.m */; };
+		042D01661D98523300D896F9 /* CRGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D01651D98523300D896F9 /* CRGrowingTextView.m */; };
+		044715C51D945E9600B4DD3A /* CRChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044715C41D945E9600B4DD3A /* CRChatViewController.m */; };
+		044715C81D945EE400B4DD3A /* CRMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044715C71D945EE400B4DD3A /* CRMessageCell.m */; };
+		04991BA21D9178E500546C70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04991BA11D9178E500546C70 /* main.m */; };
+		04991BAB1D9178E500546C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04991BA91D9178E500546C70 /* Main.storyboard */; };
+		04991BAE1D9178E600546C70 /* Chat_Room.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04991BAC1D9178E600546C70 /* Chat_Room.xcdatamodeld */; };
+		04991BB01D9178E600546C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04991BAF1D9178E600546C70 /* Assets.xcassets */; };
+		04991BB31D9178E600546C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04991BB11D9178E600546C70 /* LaunchScreen.storyboard */; };
+		04991BD01D918B5500546C70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04991BCB1D918B5500546C70 /* AppDelegate.m */; };
+		04991BD41D918BCB00546C70 /* CRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04991BD31D918BCB00546C70 /* CRLoginViewController.m */; };
+		04991BD81D91935F00546C70 /* CRBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04991BD71D91935F00546C70 /* CRBasicViewController.m */; };
+		04991BDB1D9194BF00546C70 /* CRKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04991BDA1D9194BF00546C70 /* CRKeyboardViewController.m */; };
+		04A2DA601D92D45400FE252C /* CRCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2DA5F1D92D45400FE252C /* CRCommand.m */; };
+		04A2DA6A1D92D56700FE252C /* GFDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2DA651D92D56700FE252C /* GFDateFormatter.m */; };
+		04A2DA6C1D92D56700FE252C /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2DA671D92D56700FE252C /* ISO8601DateFormatter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		04A2DA6E1D92D56700FE252C /* NSObject+GFJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2DA691D92D56700FE252C /* NSObject+GFJson.m */; };
+		0B093BB0C00C88DB2B72B610 /* Pods_Chat_Room.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6929541F5621B2DB734C70 /* Pods_Chat_Room.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04027B2C1D9540F000DD34BB /* CRDialogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRDialogCell.h; sourceTree = "<group>"; };
+		04027B2D1D9540F000DD34BB /* CRDialogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRDialogCell.m; sourceTree = "<group>"; };
+		04027B2F1D95415600DD34BB /* CRDialogObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRDialogObject.h; sourceTree = "<group>"; };
+		04027B301D95415600DD34BB /* CRDialogObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRDialogObject.m; sourceTree = "<group>"; };
+		042D01421D96998500D896F9 /* CRWidgetDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRWidgetDateCell.h; sourceTree = "<group>"; };
+		042D01431D96998500D896F9 /* CRWidgetDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRWidgetDateCell.m; sourceTree = "<group>"; };
+		042D01451D9699CB00D896F9 /* CRWidgetMapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRWidgetMapCell.h; sourceTree = "<group>"; };
+		042D01461D9699CB00D896F9 /* CRWidgetMapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRWidgetMapCell.m; sourceTree = "<group>"; };
+		042D01481D9699DD00D896F9 /* CRWidgetRateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRWidgetRateCell.h; sourceTree = "<group>"; };
+		042D01491D9699DD00D896F9 /* CRWidgetRateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRWidgetRateCell.m; sourceTree = "<group>"; };
+		042D014B1D9699EC00D896F9 /* CRWidgetCompleteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRWidgetCompleteCell.h; sourceTree = "<group>"; };
+		042D014C1D9699EC00D896F9 /* CRWidgetCompleteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRWidgetCompleteCell.m; sourceTree = "<group>"; };
+		042D014E1D96A8DB00D896F9 /* CRWidgetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRWidgetCell.h; sourceTree = "<group>"; };
+		042D014F1D96A8DB00D896F9 /* CRWidgetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRWidgetCell.m; sourceTree = "<group>"; };
+		042D01511D96D3F000D896F9 /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		042D01521D96D3F000D896F9 /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
+		042D01541D96DE2C00D896F9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		042D01561D97307600D896F9 /* CRReplyRateWidgetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRReplyRateWidgetCell.h; sourceTree = "<group>"; };
+		042D01571D97307600D896F9 /* CRReplyRateWidgetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRReplyRateWidgetCell.m; sourceTree = "<group>"; };
+		042D015E1D97539C00D896F9 /* CRMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRMapViewController.h; sourceTree = "<group>"; };
+		042D015F1D97539C00D896F9 /* CRMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRMapViewController.m; sourceTree = "<group>"; };
+		042D01611D9753BA00D896F9 /* CRAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRAnnotation.h; sourceTree = "<group>"; };
+		042D01621D9753BA00D896F9 /* CRAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRAnnotation.m; sourceTree = "<group>"; };
+		042D01641D98523300D896F9 /* CRGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRGrowingTextView.h; sourceTree = "<group>"; };
+		042D01651D98523300D896F9 /* CRGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRGrowingTextView.m; sourceTree = "<group>"; };
+		044715C31D945E9600B4DD3A /* CRChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRChatViewController.h; sourceTree = "<group>"; };
+		044715C41D945E9600B4DD3A /* CRChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRChatViewController.m; sourceTree = "<group>"; };
+		044715C61D945EE400B4DD3A /* CRMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRMessageCell.h; sourceTree = "<group>"; };
+		044715C71D945EE400B4DD3A /* CRMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRMessageCell.m; sourceTree = "<group>"; };
+		04991B9D1D9178E500546C70 /* Chat Room.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat Room.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04991BA11D9178E500546C70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04991BAA1D9178E500546C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04991BAD1D9178E600546C70 /* Chat_Room.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chat_Room.xcdatamodel; sourceTree = "<group>"; };
+		04991BAF1D9178E600546C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04991BB21D9178E600546C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04991BB41D9178E600546C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04991BCA1D918B5500546C70 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04991BCB1D918B5500546C70 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04991BD21D918BCB00546C70 /* CRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRLoginViewController.h; sourceTree = "<group>"; };
+		04991BD31D918BCB00546C70 /* CRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRLoginViewController.m; sourceTree = "<group>"; };
+		04991BD61D91935F00546C70 /* CRBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRBasicViewController.h; sourceTree = "<group>"; };
+		04991BD71D91935F00546C70 /* CRBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBasicViewController.m; sourceTree = "<group>"; };
+		04991BD91D9194BF00546C70 /* CRKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRKeyboardViewController.h; sourceTree = "<group>"; };
+		04991BDA1D9194BF00546C70 /* CRKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRKeyboardViewController.m; sourceTree = "<group>"; };
+		04A2DA5E1D92D45400FE252C /* CRCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRCommand.h; sourceTree = "<group>"; };
+		04A2DA5F1D92D45400FE252C /* CRCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRCommand.m; sourceTree = "<group>"; };
+		04A2DA641D92D56700FE252C /* GFDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFDateFormatter.h; sourceTree = "<group>"; };
+		04A2DA651D92D56700FE252C /* GFDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFDateFormatter.m; sourceTree = "<group>"; };
+		04A2DA661D92D56700FE252C /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
+		04A2DA671D92D56700FE252C /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
+		04A2DA681D92D56700FE252C /* NSObject+GFJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GFJson.h"; sourceTree = "<group>"; };
+		04A2DA691D92D56700FE252C /* NSObject+GFJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GFJson.m"; sourceTree = "<group>"; };
+		2AB505A51DD7B7428276D17C /* Pods-Chat Room.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat Room.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chat Room/Pods-Chat Room.debug.xcconfig"; sourceTree = "<group>"; };
+		8F6929541F5621B2DB734C70 /* Pods_Chat_Room.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_Room.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA8F37F1CC2F8429A9AEDEC /* Pods-Chat Room.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat Room.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chat Room/Pods-Chat Room.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04991B9A1D9178E500546C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042D01551D96DE2C00D896F9 /* MapKit.framework in Frameworks */,
+				0B093BB0C00C88DB2B72B610 /* Pods_Chat_Room.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042D015D1D97539100D896F9 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				042D015E1D97539C00D896F9 /* CRMapViewController.h */,
+				042D015F1D97539C00D896F9 /* CRMapViewController.m */,
+				042D01611D9753BA00D896F9 /* CRAnnotation.h */,
+				042D01621D9753BA00D896F9 /* CRAnnotation.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		044715C01D945E9600B4DD3A /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				044715C11D945E9600B4DD3A /* Cells */,
+				044715C31D945E9600B4DD3A /* CRChatViewController.h */,
+				044715C41D945E9600B4DD3A /* CRChatViewController.m */,
+				042D01641D98523300D896F9 /* CRGrowingTextView.h */,
+				042D01651D98523300D896F9 /* CRGrowingTextView.m */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		044715C11D945E9600B4DD3A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				044715C21D945E9600B4DD3A /* Widgets */,
+				04027B2C1D9540F000DD34BB /* CRDialogCell.h */,
+				04027B2D1D9540F000DD34BB /* CRDialogCell.m */,
+				044715C61D945EE400B4DD3A /* CRMessageCell.h */,
+				044715C71D945EE400B4DD3A /* CRMessageCell.m */,
+				042D01561D97307600D896F9 /* CRReplyRateWidgetCell.h */,
+				042D01571D97307600D896F9 /* CRReplyRateWidgetCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		044715C21D945E9600B4DD3A /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				042D014E1D96A8DB00D896F9 /* CRWidgetCell.h */,
+				042D014F1D96A8DB00D896F9 /* CRWidgetCell.m */,
+				042D01421D96998500D896F9 /* CRWidgetDateCell.h */,
+				042D01431D96998500D896F9 /* CRWidgetDateCell.m */,
+				042D01451D9699CB00D896F9 /* CRWidgetMapCell.h */,
+				042D01461D9699CB00D896F9 /* CRWidgetMapCell.m */,
+				042D01481D9699DD00D896F9 /* CRWidgetRateCell.h */,
+				042D01491D9699DD00D896F9 /* CRWidgetRateCell.m */,
+				042D014B1D9699EC00D896F9 /* CRWidgetCompleteCell.h */,
+				042D014C1D9699EC00D896F9 /* CRWidgetCompleteCell.m */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		04991B941D9178E500546C70 = {
+			isa = PBXGroup;
+			children = (
+				04991B9F1D9178E500546C70 /* Chat Room */,
+				04991B9E1D9178E500546C70 /* Products */,
+				784A713A67875FAFBE400363 /* Pods */,
+				64E5DEF6243C350F2CBF6CE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04991B9E1D9178E500546C70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04991B9D1D9178E500546C70 /* Chat Room.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04991B9F1D9178E500546C70 /* Chat Room */ = {
+			isa = PBXGroup;
+			children = (
+				04991BC91D918B5500546C70 /* Source */,
+				04991BA01D9178E500546C70 /* Supporting Files */,
+			);
+			path = "Chat Room";
+			sourceTree = "<group>";
+		};
+		04991BA01D9178E500546C70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04991BA91D9178E500546C70 /* Main.storyboard */,
+				04991BAF1D9178E600546C70 /* Assets.xcassets */,
+				04991BB11D9178E600546C70 /* LaunchScreen.storyboard */,
+				04991BB41D9178E600546C70 /* Info.plist */,
+				04991BAC1D9178E600546C70 /* Chat_Room.xcdatamodeld */,
+				04991BA11D9178E500546C70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04991BC91D918B5500546C70 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				04991BCA1D918B5500546C70 /* AppDelegate.h */,
+				04991BCB1D918B5500546C70 /* AppDelegate.m */,
+				04991BCC1D918B5500546C70 /* Model */,
+				04991BCD1D918B5500546C70 /* ViewControllers */,
+				04A2DA711D92D64700FE252C /* Categories */,
+				04A2DA621D92D56700FE252C /* ThirdParty */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		04991BCC1D918B5500546C70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04A2DA511D92D3B000FE252C /* Messages */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04991BCD1D918B5500546C70 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				042D015D1D97539100D896F9 /* Map */,
+				044715C01D945E9600B4DD3A /* Chat */,
+				04991BD51D91934E00546C70 /* Base */,
+				04991BD21D918BCB00546C70 /* CRLoginViewController.h */,
+				04991BD31D918BCB00546C70 /* CRLoginViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04991BD51D91934E00546C70 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				04991BD61D91935F00546C70 /* CRBasicViewController.h */,
+				04991BD71D91935F00546C70 /* CRBasicViewController.m */,
+				04991BD91D9194BF00546C70 /* CRKeyboardViewController.h */,
+				04991BDA1D9194BF00546C70 /* CRKeyboardViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		04A2DA511D92D3B000FE252C /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				04027B2F1D95415600DD34BB /* CRDialogObject.h */,
+				04027B301D95415600DD34BB /* CRDialogObject.m */,
+				04A2DA5E1D92D45400FE252C /* CRCommand.h */,
+				04A2DA5F1D92D45400FE252C /* CRCommand.m */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		04A2DA621D92D56700FE252C /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				04A2DA631D92D56700FE252C /* GoldenFleece */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		04A2DA631D92D56700FE252C /* GoldenFleece */ = {
+			isa = PBXGroup;
+			children = (
+				04A2DA641D92D56700FE252C /* GFDateFormatter.h */,
+				04A2DA651D92D56700FE252C /* GFDateFormatter.m */,
+				04A2DA661D92D56700FE252C /* ISO8601DateFormatter.h */,
+				04A2DA671D92D56700FE252C /* ISO8601DateFormatter.m */,
+				04A2DA681D92D56700FE252C /* NSObject+GFJson.h */,
+				04A2DA691D92D56700FE252C /* NSObject+GFJson.m */,
+			);
+			path = GoldenFleece;
+			sourceTree = "<group>";
+		};
+		04A2DA711D92D64700FE252C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				042D01511D96D3F000D896F9 /* NSDate+Utils.h */,
+				042D01521D96D3F000D896F9 /* NSDate+Utils.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		64E5DEF6243C350F2CBF6CE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				042D01541D96DE2C00D896F9 /* MapKit.framework */,
+				8F6929541F5621B2DB734C70 /* Pods_Chat_Room.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		784A713A67875FAFBE400363 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AB505A51DD7B7428276D17C /* Pods-Chat Room.debug.xcconfig */,
+				DCA8F37F1CC2F8429A9AEDEC /* Pods-Chat Room.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04991B9C1D9178E500546C70 /* Chat Room */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04991BC21D9178E600546C70 /* Build configuration list for PBXNativeTarget "Chat Room" */;
+			buildPhases = (
+				3E738477FC89D39169BEACD3 /* Check Pods Manifest.lock */,
+				04991B991D9178E500546C70 /* Sources */,
+				04991B9A1D9178E500546C70 /* Frameworks */,
+				04991B9B1D9178E500546C70 /* Resources */,
+				043112CC95FA94936744A380 /* Embed Pods Frameworks */,
+				BA52816450F7DB0426CF778D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chat Room";
+			productName = "Chat Room";
+			productReference = 04991B9D1D9178E500546C70 /* Chat Room.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04991B951D9178E500546C70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Ottonova;
+				TargetAttributes = {
+					04991B9C1D9178E500546C70 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TX49F3CB83;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04991B981D9178E500546C70 /* Build configuration list for PBXProject "Chat Room" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04991B941D9178E500546C70;
+			productRefGroup = 04991B9E1D9178E500546C70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04991B9C1D9178E500546C70 /* Chat Room */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04991B9B1D9178E500546C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04991BB31D9178E600546C70 /* LaunchScreen.storyboard in Resources */,
+				04991BB01D9178E600546C70 /* Assets.xcassets in Resources */,
+				04991BAB1D9178E500546C70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		043112CC95FA94936744A380 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chat Room/Pods-Chat Room-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E738477FC89D39169BEACD3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA52816450F7DB0426CF778D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chat Room/Pods-Chat Room-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04991B991D9178E500546C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04991BAE1D9178E600546C70 /* Chat_Room.xcdatamodeld in Sources */,
+				04A2DA6C1D92D56700FE252C /* ISO8601DateFormatter.m in Sources */,
+				042D01501D96A8DB00D896F9 /* CRWidgetCell.m in Sources */,
+				04027B2E1D9540F000DD34BB /* CRDialogCell.m in Sources */,
+				042D01441D96998500D896F9 /* CRWidgetDateCell.m in Sources */,
+				042D01601D97539C00D896F9 /* CRMapViewController.m in Sources */,
+				044715C81D945EE400B4DD3A /* CRMessageCell.m in Sources */,
+				042D014A1D9699DD00D896F9 /* CRWidgetRateCell.m in Sources */,
+				04991BA21D9178E500546C70 /* main.m in Sources */,
+				042D01471D9699CB00D896F9 /* CRWidgetMapCell.m in Sources */,
+				042D01531D96D3F000D896F9 /* NSDate+Utils.m in Sources */,
+				04A2DA601D92D45400FE252C /* CRCommand.m in Sources */,
+				042D01661D98523300D896F9 /* CRGrowingTextView.m in Sources */,
+				04991BD81D91935F00546C70 /* CRBasicViewController.m in Sources */,
+				044715C51D945E9600B4DD3A /* CRChatViewController.m in Sources */,
+				04991BDB1D9194BF00546C70 /* CRKeyboardViewController.m in Sources */,
+				042D014D1D9699EC00D896F9 /* CRWidgetCompleteCell.m in Sources */,
+				04991BD41D918BCB00546C70 /* CRLoginViewController.m in Sources */,
+				04A2DA6A1D92D56700FE252C /* GFDateFormatter.m in Sources */,
+				042D01581D97307600D896F9 /* CRReplyRateWidgetCell.m in Sources */,
+				04991BD01D918B5500546C70 /* AppDelegate.m in Sources */,
+				04A2DA6E1D92D56700FE252C /* NSObject+GFJson.m in Sources */,
+				042D01631D9753BA00D896F9 /* CRAnnotation.m in Sources */,
+				04027B311D95415600DD34BB /* CRDialogObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04991BA91D9178E500546C70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04991BAA1D9178E500546C70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04991BB11D9178E600546C70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04991BB21D9178E600546C70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04991BC01D9178E600546C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04991BC11D9178E600546C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04991BC31D9178E600546C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB505A51DD7B7428276D17C /* Pods-Chat Room.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TX49F3CB83;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Chat Room/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ottonova.Chat-Room";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04991BC41D9178E600546C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA8F37F1CC2F8429A9AEDEC /* Pods-Chat Room.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TX49F3CB83;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Chat Room/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ottonova.Chat-Room";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04991B981D9178E500546C70 /* Build configuration list for PBXProject "Chat Room" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04991BC01D9178E600546C70 /* Debug */,
+				04991BC11D9178E600546C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04991BC21D9178E600546C70 /* Build configuration list for PBXNativeTarget "Chat Room" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04991BC31D9178E600546C70 /* Debug */,
+				04991BC41D9178E600546C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04991BAC1D9178E600546C70 /* Chat_Room.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04991BAD1D9178E600546C70 /* Chat_Room.xcdatamodel */,
+			);
+			currentVersion = 04991BAD1D9178E600546C70 /* Chat_Room.xcdatamodel */;
+			path = Chat_Room.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04991B951D9178E500546C70 /* Project object */;
+}

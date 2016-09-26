@@ -1,0 +1,13 @@
+PODS:
+  - MBAutoGrowingTextView (0.1.0)
+  - Socket.IO-Client-Swift (8.0.2)
+
+DEPENDENCIES:
+  - MBAutoGrowingTextView (~> 0.1.0)
+  - Socket.IO-Client-Swift
+
+SPEC CHECKSUMS:
+  MBAutoGrowingTextView: 3955d4513be3d184fe2cb7739999c1f994dcd4d5
+  Socket.IO-Client-Swift: 136598e4a81a42b0e6855e7f94a0e5a6efdc5ff8
+
+COCOAPODS: 0.39.0

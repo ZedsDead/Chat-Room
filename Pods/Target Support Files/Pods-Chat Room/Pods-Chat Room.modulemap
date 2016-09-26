@@ -1,0 +1,6 @@
+framework module Pods_Chat_Room {
+  umbrella header "Pods-Chat Room-umbrella.h"
+
+  export *
+  module * { export * }
+}
